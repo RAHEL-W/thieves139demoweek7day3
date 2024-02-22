@@ -28,7 +28,7 @@ const pokemonData = async (pokename) => {
     card.innerHTML = `
        
         <img src="${data.sprites.front_default}">
-        <p>${data.name}<p>
-        <p>${data["abilities"][0]["ability"]["name"]}<p>
+        <p>name :${data.name}<p>
+        <p>ability: ${data["abilities"][0]["ability"]["name"]}<p>
     `
   }

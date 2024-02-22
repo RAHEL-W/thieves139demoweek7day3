@@ -4,11 +4,6 @@ body, html{
     background-size: cover;  
   
 }
-.bg-image{
-    filter: blur(8px);
-   
-   
-}
 
 #card{
     padding: 50px;
@@ -16,7 +11,7 @@ body, html{
     width: 180px;
     height: 280px;
     background-color: rgb(255, 250, 208);
-    border: 1 solid black;
+  
     
 }
 
