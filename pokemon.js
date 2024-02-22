@@ -29,6 +29,6 @@ const pokemonData = async (pokename) => {
        
         <img src="${data.sprites.front_default}">
         <p>${data.name}<p>
-        <p>${data.abilities[0]}<p>
+        <p>${data["abilities"][0]["ability"]["name"]}<p>
     `
   }

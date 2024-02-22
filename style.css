@@ -1,4 +1,34 @@
-#card{
-    
-    border: 1 solid black;
+body, html{
+    background-image: url("https://giffiles.alphacoders.com/129/129797.gif");
+   
+    background-size: cover;  
+  
 }
+.bg-image{
+    filter: blur(8px);
+   
+   
+}
+
+#card{
+    padding: 50px;
+    margin: auto;
+    width: 180px;
+    height: 280px;
+    background-color: rgb(255, 250, 208);
+    border: 1 solid black;
+    
+}
+
+
+#card,  p{
+    color: blue;
+    font-size: 25px;
+}
+
+
+#card, img{
+    width: 150px;
+    
+}
+
